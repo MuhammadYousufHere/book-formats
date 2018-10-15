@@ -1,0 +1,84 @@
+html*, html {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	    width: 802px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+i {
+	font-size: 1.2em;
+	color: #f8c47e;
+}
+#audiobook {
+	    margin: 0;
+    padding-top: 11px;
+    padding-left: 5px;
+}
+.box {
+	margin: 0;
+	height: 200px;
+	
+	    width: 122px;
+    height:58px;
+    border: 1.4px solid #00000069;
+    border-radius: 3px;
+}
+.whole-box {
+	    height: 183px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header {
+	text-transform: capitalize;
+	    margin-top: 18px;
+    line-height: 0px;
+    padding: 0;
+    margin-left: 8px;
+    color: #000000e0;
+    font-size: 0.9em;
+	
+}
+#big {
+	margin-top: 21px;
+    height: 79px;
+
+}
+.description{
+	    font-weight: 500;
+	    margin-top: 10px;
+	    color: #0c66c0;
+    font-size: .8em;
+}
+.price {
+	margin-left: 8px;
+	color: #495057c7;
+	font-size: 0.75em;
+
+}
+.free {
+	    color: #b23221;
+    font-weight: bold;
+    font-size: .98em;
+
+}
+p {
+	margin: 0;
+	
+}
+strong {
+	color: #71767cc2;
+    font-size: 0.95em;
+}
+.box:hover{
+	
+	background-color: #fef8f2;
+	 border: 1.4px solid #e7762e;
+
+}
